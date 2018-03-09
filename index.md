@@ -12,14 +12,15 @@ JavaScript 기반 웹용 데이터 시각화 프레임워크 개발 프로젝트
 ### 3. 팀 소개
 
 **산학협력 회사: (주)뉴로어소시에이츠**
-
 **팀명 : 뉴로IRMI**
+**팀원: 최예인**
 
-팀원: 최예인  
 <img src="KakaoTalk_Photo_2018-03-09-14-14-38.jpeg" width="250" height="150">
 
 
-### 4. 사용법
+**팀페이지 주소** 23조 -> https://github.com/kookmin-sw/2018-cap1-27/
+
+### 4. Abstract
 
 
 
