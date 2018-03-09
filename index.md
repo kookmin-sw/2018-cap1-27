@@ -15,7 +15,8 @@ JavaScript 기반 웹용 데이터 시각화 프레임워크 개발 프로젝트
 
 **팀명 : 뉴로IRMI**
 
-<img src="KakaoTalk_Photo_2018-03-09-14-14-38.jpeg" width="300" height="150">
+팀원: 최예인  
+<img src="KakaoTalk_Photo_2018-03-09-14-14-38.jpeg" width="250" height="150">
 
 
 ### 4. 사용법
