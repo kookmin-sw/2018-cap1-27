@@ -1,7 +1,9 @@
 ### 1. 프로젝트 소개
 IRMI (Interactive Real-time Motion Infographics)
 
-JavaScript 기반 웹용 데이터 시각화 프레임워크 개발 프로젝트
+
+'IRMI(이르미)'는 기존 웹 프레임워크의 불편함을 개선하고, 쉽고 빠르게 데이터 시각화물을 구축할 수 있게 도와주는
+JavaScript 기반 웹용 데이터 시각화 프레임워크 개발 프로젝트 입니다.
 
 ### 2. 소개 영상
 
