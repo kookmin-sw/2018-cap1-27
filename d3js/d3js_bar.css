@@ -1,10 +1,10 @@
 svg {
     width: 900px;
-    height:500px;
+    height: 400px;
     border: 1px solid black;
 }
 .bar {
-    fill: orange;
+    fill: rgba(226, 38, 38, 0.2);
 }
 .barNum {
     font-size: 9pt;

@@ -1,7 +1,7 @@
 var svgWidth = 900;
-var svgHeight = 500;
+var svgHeight = 400;
 var offsetX = 30;
-var offsetY = 20;
+var offsetY = 35;
 var barElements;
 var dataSet = [-2.4, 0.4, 5.7, 12.5, 17.8, 22.2, 24.9, 25.7, 21.2, 14.8, 7.2, 0.4];
 var dataMax = 300;
