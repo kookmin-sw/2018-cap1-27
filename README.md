@@ -32,6 +32,12 @@ JavaScript 기반 웹용 데이터 시각화 프레임워크 개발 프로젝트
 ### 4. Abstract
 
 
+'IRMI' is a JavaScript-based data visualization framework for web development project that improves the inconvenience of existing web frameworks and enables quick and easy creation of data visualization.
+
+As the day goes by, the data becomes bigger and bigger, and the importance of big data is increasing accordingly. However, the data is less useful, if you do not understand the meaning of the data. One way to solve this problem is to visualize the data.
+
+There are already languages and tools for data visualization, but there are some inconvenience that the amount of coding becomes too much or we have to use a separate library for attaching data. We have been working on this project to improve that and to build data visual result with little learning.
+
 
 ### 5. 기타
 
