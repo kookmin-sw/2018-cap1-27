@@ -1,0 +1,12 @@
+svg {
+    width: 600px;
+    height: 600px;
+}
+.pie {
+    fill: orange;
+    stroke: white;
+}
+.pieNum {
+    font-size: 9pt;
+    text-anchor: middle;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <canvas id="radar-chart" width="500" height="400"></canvas>
+    <script>
+        new Chart(document.getElementById("radar-chart"), {
+    type: 'radar',
+    data: {
+      labels: ["10s","20s","30s","40s","50s"],
+      datasets: [
+      {
+          label: "female",
+          fill: true,
+          backgroundColor: "rgba(219, 52, 216, 0.4)",
+          borderColor: "rgb(219, 52, 216)",
+          pointBorderColor: "#fff",
+          pointBackgroundColor: "rgba(179,181,198,1)",
+          data: [10.51, 21.24, 10.13, 5.4, 3.34]
+        },
+        {
+          label: "male",
+          fill: true,
+          backgroundColor: "rgba(66, 134, 244, 0.4)",
+          borderColor: "rgb(66, 134, 244)",
+          pointBorderColor: "#fff",
+          pointBackgroundColor: "rgba(179,181,198,1)",
+          data: [8.29, 21.55, 10.09, 6.14, 3.07]
+        }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'percentage of person who use instagram'
+      }
+    }
+})
+    </script>
+</body>
+</html>
