@@ -1,4 +1,4 @@
-var now = new Date();
+var now = new Date();    //날짜 선택 구현 부분
 var yi = now.getFullYear();
 var mi = now.getMonth() + 1;
 var di = now.getDate();
