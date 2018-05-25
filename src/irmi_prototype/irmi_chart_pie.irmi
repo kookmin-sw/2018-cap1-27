@@ -1,0 +1,16 @@
+{
+    "type": "pie",
+    "data": {
+      "labels": ["10s","20s","30s","40s","50s"],
+      "datasets": [{
+        "backgroundColor": ["rgba(242, 231, 84, 0.5)", "rgba(81, 176, 232, 0.5)","rgba(48, 173, 69, 0.5)","rgba(219, 50, 50, 0.5)","rgba(174, 67, 232, 0.5)"],
+        "data": [21,42,20,11,7]
+      }]
+    },
+    "options": {
+        "title": {
+            "display": true,
+            "text": "percentage of woman who use instagram"
+        }
+    }
+}

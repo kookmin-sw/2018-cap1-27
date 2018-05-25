@@ -1,0 +1,48 @@
+{
+    "type": "horizontalBar",
+    "data": {
+        "labels": ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "datasets": [{
+            "label": "1981-2010 monthly average of temperature (Seoul)",
+            "data": [-2.4, 0.4, 5.7, 12.5, 17.8, 22.2, 24.9, 25.7, 21.2, 14.8, 7.2, 0.4],
+            "backgroundColor": [
+                "rgba(226, 38, 38, 0.2)",
+                "rgba(226, 116, 38, 0.2)",
+                "rgba(227, 230, 49, 0.2)",
+                "rgba(161, 230, 49, 0.2)",
+                "rgba(25, 194, 84, 0.2)",
+                "rgba(24, 224, 171, 0.2)",
+                "rgba(24, 224, 221, 0.2)",
+                "rgba(23, 167, 215, 0.2)",
+                "rgba(23, 97, 215, 0.2)",
+                "rgba(76, 30, 214, 0.2)",
+                "rgba(208, 39, 231, 0.2)",
+                "rgba(231, 39, 112, 0.2)"
+            ],
+            "borderColor": [
+                "rgba(226, 38, 38, 1)",
+                "rgba(226, 116, 38, 1)",
+                "rgba(227, 230, 49, 1)",
+                "rgba(161, 230, 49, 1)",
+                "rgba(25, 194, 84, 1)",
+                "rgba(24, 224, 171, 1)",
+                "rgba(24, 224, 221, 1)",
+                "rgba(23, 167, 215, 1)",
+                "rgba(23, 97, 215, 1)",
+                "rgba(76, 30, 214, 1)",
+                "rgba(208, 39, 231, 1)",
+                "rgba(231, 39, 112, 1)"
+            ],
+            "borderWidth": 1
+        }]
+    },
+    "options": {
+        "scales": {
+            "yAxes": [{
+                "ticks": {
+                    "beginAtZero": true
+                }
+            }]
+        }
+    }
+}

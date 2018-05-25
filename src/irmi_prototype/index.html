@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv=”X-UA-Compatible” content=”IE=edge”>
+    <title>IRMI Test Drive</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+    <script src="./irmi_chartjs.js"></script>
+
+
+    <div class="irmi-ground" irmi-id="chart_00" irmi-source="./testdrive.irmi">
+        <canvas id="bar-chart" width="800" height="450"></canvas>
+        <script>show_irmi_chart("bar-chart", "irmi_chart_bar.irmi");</script>
+    </div>
+
+    <div class="irmi-ground" irmi-id="chart_01" irmi-source="./testdrive.irmi">
+        <canvas id="doughnut-chart" width="800" height="450"></canvas>
+        <script>show_irmi_chart("doughnut-chart", "irmi_chart_doughnut.irmi");</script>
+    </div>
+
+    <div class="irmi-ground" irmi-id="chart_01" irmi-source="./testdrive.irmi">
+        <canvas id="bar-chart-grouped" width="800" height="450"></canvas>
+        <script>show_irmi_chart("bar-chart-grouped", "irmi_chart_bar-chart-grouped.irmi");</script>
+    </div>
+
+    <div class="irmi-ground" irmi-id="chart_01" irmi-source="./testdrive.irmi">
+        <canvas id="bar-chart-horizontal" width="800" height="450"></canvas>
+        <script>show_irmi_chart("bar-chart-horizontal", "irmi_chart_bar-chart-horizontal.irmi");</script>
+    </div>
+
+    <div class="irmi-ground" irmi-id="chart_01" irmi-source="./testdrive.irmi">
+        <canvas id="line-chart" width="800" height="450"></canvas>
+        <script>show_irmi_chart("line-chart", "irmi_chart_line.irmi");</script>
+    </div>
+
+    <div class="irmi-ground" irmi-id="chart_01" irmi-source="./testdrive.irmi">
+        <canvas id="mixed-chart" width="800" height="450"></canvas>
+        <script>show_irmi_chart("mixed-chart", "irmi_chart_mixed.irmi");</script>
+    </div>
+
+    <div class="irmi-ground" irmi-id="chart_01" irmi-source="./testdrive.irmi">
+        <canvas id="pie-chart" width="800" height="450"></canvas>
+        <script>show_irmi_chart("pie-chart", "irmi_chart_pie.irmi");</script>
+    </div>
+
+    <div class="irmi-ground" irmi-id="chart_01" irmi-source="./testdrive.irmi">
+        <canvas id="radar-chart" width="800" height="450"></canvas>
+        <script>show_irmi_chart("radar-chart", "irmi_chart_radar.irmi");</script>
+    </div>
+            
+    <!-- <div class="irmi-ground" irmi-id="chart_01" irmi-source="./testdrive.irmi"></div>
+
+    <div class="irmi-ground" irmi-id="chart_02" irmi-source="http://localhost:8000/"></div>
+
+    <div class="irmi-ground" irmi-id="chart_03" irmi-source="./testdrive.irmi" irmi-type="svg">
+        <svg>
+            <circle irmi-tag-"pie-circle" cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
+    </div> -->
+</body>
+
+<script src="./irmi.js"></script>
+<script>
+    hello_irmi();
+</script>
+
+</html>
